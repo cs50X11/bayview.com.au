@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bayview Surf School - Services</title>
+  <style>
+    body {
+      margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #e6f0fa;
+      color: #02457a;
+    }
+    header {
+      background: #0288d1;
+      padding: 1rem;
+    }
+    nav ul {
+      margin: 0; padding: 0; list-style: none; display: flex; justify-content: center;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      color: white; text-decoration: none; font-weight: 600;
+    }
+    nav ul li a:hover, nav ul li a[aria-current="page"] {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #013a63;
+    }
+    ul.services-list {
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+    }
+    ul.services-list li {
+      background: white;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+      padding: 1.2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      font-size: 1.1rem;
+    }
+    footer {
+      background: #02457a;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      ul.services-list li {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" aria-current="page">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Our Services</h1>
+    <ul class="services-list">
+      <li>
+        <h2>Beginner Classes</h2>
+        <p>Learn the basics with our friendly beginner classes, perfect for first-timers and those new to surfing.</p>
+      </li>
+      <li>
+        <h2>Advanced Coaching</h2>
+        <p>Take your surfing skills to the next level with personalized coaching from our expert instructors.</p>
+      </li>
+      <li>
+        <h2>Board Rentals</h2>
+        <p>Rent high-quality surfboards for your beach day, whether you’re practicing or just having fun.</p>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Bayview Surf School | Located on the beautiful Bunbury coast
+  </footer>
+</body>
+</html>
