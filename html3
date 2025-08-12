@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bayview Surf School - About</title>
+  <style>
+    body {
+      margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #e6f0fa;
+      color: #02457a;
+    }
+    header {
+      background: #0288d1;
+      padding: 1rem;
+    }
+    nav ul {
+      margin: 0; padding: 0; list-style: none; display: flex; justify-content: center;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      color: white; text-decoration: none; font-weight: 600;
+    }
+    nav ul li a:hover, nav ul li a[aria-current="page"] {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 700px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #013a63;
+    }
+    .instructor {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .instructor img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #0288d1;
+    }
+    .bio {
+      flex: 1;
+    }
+    footer {
+      background: #02457a;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      .instructor {
+        flex-direction: column;
+        text-align: center;
+      }
+      .instructor img {
+        margin-bottom: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>About Us</h1>
+
+    <div class="instructor">
+      <img src="images/instructor1.jpg" alt="Photo of Jamie, lead surf instructor" />
+      <div class="bio">
+        <h2>Jamie - Lead Surf Instructor</h2>
+        <p>Jamie has 10 years of surfing experience and a passion for teaching. Certified in surf safety, Jamie creates fun, safe lessons for all skill levels.</p>
+      </div>
+    </div>
+
+    <div class="instructor">
+      <img src="images/instructor2.jpg" alt="Photo of Alex, advanced coaching expert" />
+      <div class="bio">
+        <h2>Alex - Advanced Coaching Expert</h2>
+        <p>Alex specializes in advanced techniques and wave riding skills, helping surfers push their limits and achieve their goals.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Bayview Surf School | Located on the beautiful Bunbury coast
+  </footer>
+</body>
+</html>
